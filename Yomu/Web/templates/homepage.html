@@ -1,0 +1,10 @@
+
+{% extends 'base.html' %}
+{% block content %}
+{% for post in object_list%}
+{{post.title}}
+{{post.body}}
+{%endfor%}
+{% endblock %}
+
+<h1>hi</h1>
